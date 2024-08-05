@@ -1,0 +1,20 @@
+.image-hover button[data-toggle="modal"] {
+    /* opacity: 0.5; */
+    background: #000;
+}
+.image-hover button span {
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: none;
+}
+.image-hover:hover button span {
+    display: block;
+}
+.image-hover:hover button img {
+    opacity: 0.4;
+}
+.form-floating label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: lighter;
+}
